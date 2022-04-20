@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+
+    <!-- css file  -->
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+<!-- header -->
+<header>
+    <a href="#" class="logo">WARUNG SEBLAK</a>
+     <nav class="navbar">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+    </nav>
+</header>
+<!-- header -->
+
+<!-- home -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>WARUNG SEBLAK</h3>
+        <a href="http://web.whatsapp.com/send?phone=628987012099&text&app_absent=0%22%20target=%22_blank%22" class="btn">Ayo Buruan</a>
+    </div>
+
+    <div class="swiper-container image-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="seblak.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="pop ice3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="seblak2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="pop ice4.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+<!-- home -->
+
+<!-- about  -->
+<section class="about">
+    <h1 class="heading">Menu Makanan</h1>
+<div class="row">
+   <div class="content">
+        <h3></h3>
+        <p></p>
+        <p></p>
+        <h3></h3>
+        <ul>
+            <li><p>Seblak</p></li>
+        </ul>
+    </div>
+</div>
+</section>
+<!-- about -->
+<section class="about">
+    <h1 class="heading">Menu Minuman</h1>
+<div class="row">
+   <div class="content">
+        <h3></h3>
+        <p></p>
+        <p></p>
+        <h3></h3>
+        <ul>
+            <li><p>Pop ice</p></li>
+        </ul>
+    </div>
+</div>
+</section>
+
+
+<!-- menu -->
+<section class="pricing">
+    <h1 class="heading">Harga</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="price"><span>Rp</span>5.000<span></span></div>
+            <h3>Seblak</h3>
+            <ul>
+                <li>pedas</li>
+                <li>original</li>
+            </ul>
+            <a href="#" class="btn">coba sekarang</a>
+        </div>
+        <div class="box">
+            <div class="price"><span>Rp</span>5.000<span></span></div>
+            <h3>pop ice</h3>
+            <ul>
+                <li>vanilla</li>
+                <li>coklat</li>
+                <li>stroberry dll.</li>
+            </ul>
+            <a href="#" class="btn">Coba sekarang</a>
+        </div>
+        
+    </div>
+</section>
+<!-- menu -->
+
+<!-- footer -->
+<section class="footer">
+    <div class="share">
+        <a href="http://web.whatsapp.com/send?phone=628986959287&text&app_absent=0%22%20target=%22_blank%22" class="fab fa-whatsapp"></a>
+        <a href="https://www.instagram.com/siti_munika07/" class="fab fa-instagram"></a>
+    </div>
+</section>
+<!-- footer -->
+
+
+<!-- script -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper(".image-slider", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+    },
+    loop:true,
+    autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+    },
+});    
+</script>
+</body>
+</html>
